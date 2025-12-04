@@ -30,7 +30,7 @@ export const Navbar = () => {
                     Biot Ecommerce
                 </Link>
                 <div className="hidden md:flex space-x-6">
-                    <Link href="/">Home</Link>
+                    <Link href="/" className="hover:text-violet-400">Home</Link>
                     <Link href="/products" className="hover:text-violet-400">Products</Link>
                     <Link href="/checkout" className="hover:text-violet-400">Checkout</Link>
                 </div>
